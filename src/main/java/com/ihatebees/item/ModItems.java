@@ -26,7 +26,8 @@ public class ModItems {
             new CoconutBeltTrinketItem(new FabricItemSettings().maxCount(1)));
     public static final Item HoneyBelt = registerItem("honeybelt",
             new HoneyBeltTrinketItem(new FabricItemSettings().maxCount(1)));
-
+    public static final Item BeltPocket = registerItem("beltpocket",
+            new BeltPocketTrinketItem(new FabricItemSettings().maxCount(1)));
     public static final Item DemonMask = registerItem("demon_mask",
             new MasterArmorItem(ModArmor.MASTER_ARMOR, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item CoconutCanister = registerItem("coconutcanister",

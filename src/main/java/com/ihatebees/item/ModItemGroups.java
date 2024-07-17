@@ -46,6 +46,8 @@ public class ModItemGroups {
                         entries.add(ModItems.GummyBoots);
 
 
+                        entries.add(ModItems.BeltPocket);
+                        entries.add(ModItems.HoneyBelt);
                         entries.add(ModItems.CoconutBelt);
 
 

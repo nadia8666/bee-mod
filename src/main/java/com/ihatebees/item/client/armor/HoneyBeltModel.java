@@ -8,7 +8,7 @@ import software.bernie.geckolib.model.GeoModel;
 
 public class HoneyBeltModel extends GeoModel<HoneyBeltTrinketItem> {
     private final Identifier model = new Identifier(BeeMod.MODID, "geo/item/honeybelt.geo.json");
-    private final Identifier texture = new Identifier(BeeMod.MODID, "textures/item/honeybelt.png");
+    private final Identifier texture = new Identifier(BeeMod.MODID, "textures/item/honeybeltmodel.png");
     private final Identifier animations = new Identifier(BeeMod.MODID, "animations/item/honeybelt.animation.json");
 
 

@@ -19,13 +19,15 @@
   "item.beemod.basicboots": "Basic Boots",
   "item.beemod.beekeepers_boots": "Beekeeper's Boots",
   "item.beemod.gummy_boots": "Gummy Boots",
-  "item.beemod.blue_port_o_Hive": "Blue Port-O-Hive",
+  "item.beemod.blue_port_o_hive": "Blue Port-O-Hive",
   "item.beemod.porcelain_port_o_hive": "Porcelain Port-O-Hive",
   "item.beemod.coconutcanister": "Coconut Canister",
   "item.beemod.hardhat": "Hard Hat",
   "item.beemod.beekeepers_hat": "Beekeeper's Mask",
   "item.beemod.demon_mask": "Demon Mask",
 
+  "item.beemod.beltpocket": "Belt Pocket",
+  "item.beemod.honeybelt": "Honeycomb Belt",
   "item.beemod.coconutbelt": "Coconut Belt",
   "item.beemod.beekeeping_pants": "Beekeeping Pants",
 

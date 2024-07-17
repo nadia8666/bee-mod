@@ -20,7 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        //   itemModelGenerator.register(ModItems.CoconutBelt, Models.GENERATED);
+
 
         itemModelGenerator.register(ModItems.TestHat, Models.GENERATED);
 
@@ -52,5 +52,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HardHat, Models.GENERATED);
         itemModelGenerator.register(ModItems.BeekeepersHat,Models.GENERATED);
         itemModelGenerator.register(ModItems.BasicBoots,Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BeltPocket, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HoneyBelt, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CoconutBelt, Models.GENERATED);
     }
 }

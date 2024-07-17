@@ -7,7 +7,7 @@ import software.bernie.geckolib.model.GeoModel;
 
 public class CoconutBeltModel extends GeoModel<CoconutBeltTrinketItem> {
     private final Identifier model = new Identifier(BeeMod.MODID, "geo/item/coconutbelt.geo.json");
-    private final Identifier texture = new Identifier(BeeMod.MODID, "textures/item/coconutbelt.png");
+    private final Identifier texture = new Identifier(BeeMod.MODID, "textures/item/coconutbeltmodel.png");
     private final Identifier animations = new Identifier(BeeMod.MODID, "animations/item/coconutbelt.animation.json");
 
 

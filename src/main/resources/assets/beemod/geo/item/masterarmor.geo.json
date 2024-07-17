@@ -37,13 +37,13 @@
 					"pivot": [0, 24, 0]
 				},
 				{
-					"name": "armorBody2",
+					"name": "armorBody",
 					"parent": "bipedBody",
 					"pivot": [0, 24, 0]
 				},
 				{
 					"name": "j2",
-					"parent": "armorBody2",
+					"parent": "armorBody",
 					"pivot": [0, 22.76667, 12.5],
 					"cubes": [
 						{"origin": [-7, 8.6, -9], "size": [14, 18, 14], "pivot": [0, 20.1, 4.5], "rotation": [0, 180, 0], "uv": [6, 2]},
