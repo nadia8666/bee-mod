@@ -1,6 +1,7 @@
 package com.ihatebees.item;
 
 import com.ihatebees.BeeMod;
+import com.ihatebees.block.ModBlocks;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -13,10 +14,12 @@ import java.util.function.Supplier;
 public enum ModArmor implements ArmorMaterial {
 
 
-    GENERIC_ARMOR("generic_armor", 25, new int[] { 3, 8, 6, 3 }, 19,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.TestThing)),
-    BASIC_ARMOR("basic_armor", 15, new int[] { 3, 4, 0, 2 }, 4,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0f, 0f, () -> Ingredient.ofItems(ModItems.TestThing)),
+    MASTER_ARMOR("master_armor", 50, new int[] { 0, 0, 0, 0 }, 30,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0f, 0f, () -> Ingredient.ofItems(ModBlocks.EXTREME_PACKHONEY)),
+    BASIC_ARMOR("basic_armor", 20, new int[] { 0, 0, 0, 0 }, 4,
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.ofItems(ModBlocks.BIG_PACKHONEY)),
+    ADVANCED_ARMOR("advanced_armor", 35, new int[] { 0, 0, 0, 0 }, 15,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0f, 0f, () -> Ingredient.ofItems(ModBlocks.HUGE_PACKHONEY)),
 
     ;
 
@@ -31,7 +34,7 @@ public enum ModArmor implements ArmorMaterial {
     private final float knockbackResistance;
     private final Supplier<Ingredient> repairIngredient;
 
-    private static final int[] BASE_DURABILITY = { 11, 16, 15, 13 };
+    private static final int[] BASE_DURABILITY = { 16, 18, 10, 14 };
 
     ModArmor(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound,
              float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
