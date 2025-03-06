@@ -53,4 +53,4 @@ jobs:
         with:
          generate_release_notes: true
          files: |
-            ./upload/Artifacts/Artifacts.zip
+            ./upload/Artifacts/*.zip
