@@ -53,4 +53,10 @@ jobs:
         with:
          generate_release_notes: true
          files: |
-            ./upload/Artifacts/*.zip
+            ./upload/Artifacts
+      - name: Other uplload to releases
+        uses: Roang-zero1/github-upload-release-artifacts-action@v3.0.0
+        with: 
+          args: "./upload/Artifacts/"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
