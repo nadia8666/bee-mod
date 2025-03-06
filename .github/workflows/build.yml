@@ -6,7 +6,6 @@
 name: build
 on: 
   workflow_dispatch:
-  pull_request:
   push:
     tags:
       - "dev_*"
@@ -54,4 +53,4 @@ jobs:
         with:
          generate_release_notes: true
          files: |
-            ./upload/Artifacts.zip
+            ./upload/Artifacts/Artifacts.zip
